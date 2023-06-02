@@ -8,10 +8,10 @@ import Contacts from '../components/Contacts';
 const Routers = () => {
   return (
     <div>
-        <BrowserRouter basename="https://r0shan-jha.github.io/">
+        <BrowserRouter basename="https://r0shan-jha.github.io">
           <Routes>
-           <Route path="/taiyo/" element={<Contacts />} />
-           <Route path="/taiyo/chartsandmaps" element={<ChartsAndMaps />} />
+           <Route path="/" element={<Contacts />} />
+           <Route path="/chartsandmaps" element={<ChartsAndMaps />} />
           </Routes>
        </BrowserRouter>
     </div>
