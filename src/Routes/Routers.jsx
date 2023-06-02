@@ -10,7 +10,7 @@ const Routers = () => {
     <div>
         <BrowserRouter basename="https://r0shan-jha.github.io/">
           <Routes>
-           <Route path="/taiyo" element={<Contacts />} />
+           <Route path="/taiyo/" element={<Contacts />} />
            <Route path="/taiyo/chartsandmaps" element={<ChartsAndMaps />} />
           </Routes>
        </BrowserRouter>
