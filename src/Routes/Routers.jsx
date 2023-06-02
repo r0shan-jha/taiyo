@@ -10,8 +10,8 @@ const Routers = () => {
     <div>
         <BrowserRouter>
           <Routes>
-           <Route path="/taiyo" element={<Contacts />} />
-           <Route path="/taiyo/chartsandmaps" element={<ChartsAndMaps />} />
+           <Route path="/" element={<Contacts />} />
+           <Route path="/chartsandmaps" element={<ChartsAndMaps />} />
           </Routes>
        </BrowserRouter>
     </div>
